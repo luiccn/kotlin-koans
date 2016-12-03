@@ -11,6 +11,7 @@ class _05_String_Templates() {
     }
 
     @Test fun match1() {
+        println(task5().toRegex().pattern)
         assertTrue("24 AUG 1957".matches(task5().toRegex()))
     }
 
